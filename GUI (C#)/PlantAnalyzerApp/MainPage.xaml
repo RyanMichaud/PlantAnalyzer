@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="PlantAnalyzerApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PlantAnalyzerApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" FlyoutBase.AttachedFlyout="{StaticResource Toolbar}">
+        <Button x:Name="button" Content="Live Mode" HorizontalAlignment="Center" Margin="55,250,55,0" VerticalAlignment="Top" Height="69" Click="live_mode_click" Width="250"/>
+        <Button x:Name="button_Copy" Content="Project Mode" HorizontalAlignment="Center" Margin="55,375,55,0" VerticalAlignment="Top" Height="69" Click="project_mode_click" Width="250"/>
+        <Button x:Name="button_Copy1" Content="Configure" HorizontalAlignment="Center" Margin="55,500,55,0" VerticalAlignment="Top" Height="69" Click="config_mode_click" Width="250"/>
+
+    </Grid>
+</Page>

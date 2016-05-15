@@ -1,0 +1,17 @@
+Flask==0.9
+Flask-SQLAlchemy==0.16
+-e git://github.com/FelixLoether/flask-uploads@d73fb8c8a4859019265e62f27e168a8bb09abfd5#egg=Flask_Uploads-dev
+Jinja2==2.7
+PIL==1.1.7
+Werkzeug==0.8.3
+gunicorn==0.17.4
+httplib2==0.7.2
+matplotlib==1.2.1
+numpy==1.6.1
+requests==1.2.1
+sessioninstaller==0.0.0
+simplegeneric==0.7
+simplejson==2.3.2
+software-center-aptd-plugins==0.0.0
+system-service==0.1.6
+virtualenv==1.7.1.2

@@ -1,0 +1,1 @@
+C:\Users\Ryan Michaud\Desktop\PlantAnalyzer\PlantAnalyzerApp_UWA\PlantAnalyzerApp\PlantAnalyzerApp.csproj;x86
